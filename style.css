@@ -1,4 +1,5 @@
 /* === SCROLLBAR === */
+html { scrollbar-width: thin; scrollbar-color: #a855f7 #0d1117; }
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #0d1117; }
 ::-webkit-scrollbar-thumb { background: #a855f7; border-radius: 10px; }
