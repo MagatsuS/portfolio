@@ -529,6 +529,17 @@ a:hover { opacity: 0.8; }
     line-height: 1.65;
 }
 
+.project-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.82rem;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+.project-link:hover { opacity: 0.75; }
+
 .project-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
 .project-tags span {
     background: #21262d;
