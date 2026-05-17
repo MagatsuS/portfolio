@@ -75,6 +75,12 @@ a:hover { opacity: 0.8; }
     letter-spacing: -0.5px;
 }
 .nav-logo span { color: var(--accent); }
+.nav-avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 .nav-links {
     list-style: none;
